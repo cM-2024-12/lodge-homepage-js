@@ -1,4 +1,4 @@
-import coryImage from "./image copy.jpg"
+import odinImage from "./odin copy.png"
 function loadHome () {
     const content = document.querySelector("#content")
     // create elements
@@ -10,7 +10,7 @@ function loadHome () {
 
     const img = document.createElement('img')
     img.classList.add("img");
-    img.src= coryImage
+    img.src= odinImage
     img.onload = () => console.log('Image loaded!', img);
     img.onerror = () => console.log('Image failed to load');
 
